@@ -5,7 +5,7 @@ on:
     branches:
       - '**'
     paths:
-      - 'catalog-service/**'
+      - 'Microservices_SB_BookStore/catalog-service/**'
 
 jobs:
   build:
@@ -13,7 +13,7 @@ jobs:
     runs-on: ubuntu-latest
 
     env:
-      working-directory: ./catalog-service
+      working-directory: ./Microservices_SB_BookStore/catalog-service
 
     defaults:
       run:
